@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <div>
+      <ion-title>Cadastro</ion-title>
+    </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="form">
+    <ion-input type="text" placeholder="Nome"><ion-icon name="person"></ion-icon></ion-input>
+    <ion-input type="text" placeholder="Email"><ion-icon name="mail"></ion-icon></ion-input>
+    <ion-input type="text" placeholder="Telefone"><ion-icon name="call"></ion-icon></ion-input>
+    <ion-input type="password" placeholder="Senha"><ion-icon name="lock-closed"></ion-icon></ion-input>
+
+    <ion-button class="submit-button" (click)="presentToast()" color="success" expand="block">Cadastrar</ion-button>
+  </div>
+</ion-content>
