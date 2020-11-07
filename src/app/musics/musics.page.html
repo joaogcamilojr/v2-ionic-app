@@ -14,11 +14,11 @@
 		<IonItem class="music-box" *ngFor="let music of musics">
       <ion-item>
         <ion-thumbnail slot="start">
-          <img src="{{ music.img }}">
+          <img src="{{ music.image_url }}">
         </ion-thumbnail>
         <div class="music">
           <ion-label><strong><ion-icon name="play"></ion-icon> {{ music.title }}</strong></ion-label>
-          <ion-label>{{ music.description }}</ion-label>
+          <ion-label>Nota: {{ music.value }}</ion-label>
           
         </div>
         

@@ -23,8 +23,13 @@ export class AppComponent implements OnInit {
       icon: 'musical-notes'
 		},
     {
-      title: 'Cadastro',
-      url: '/signup',
+      title: 'Nova Música',
+      url: '/new-item',
+      icon: 'add-circle'
+		},
+    {
+      title: 'Contato',
+      url: '/contact',
       icon: 'log-out'
 		},
     {

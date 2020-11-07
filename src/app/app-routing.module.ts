@@ -20,8 +20,12 @@ const routes: Routes = [
     loadChildren: () => import('./about/about.module').then( m => m.AboutPageModule)
   },
   {
-    path: 'signup',
-    loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
+    path: 'contact',
+    loadChildren: () => import('./contact/contact.module').then( m => m.ContactPageModule)
+  },
+  {
+    path: 'new-item',
+    loadChildren: () => import('./new-item/new-item.module').then( m => m.NewItemPageModule)
   }
 ];
 
